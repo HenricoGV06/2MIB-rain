@@ -1,0 +1,71 @@
+/*Layout*/
+.flexFooter{
+    display: flex;
+    flex-direction:column-reverse ;
+}
+
+/* Smartphone Portrait */
+/*
+body {
+    background-color: #ffffff;
+}
+*/
+/*Ródape */
+footer{
+    background-color: #343538;
+    color: rgb(255, 255, 255);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#social{
+    margin-bottom: 25px;
+}
+
+/*Smarphone Landscape*/ 
+@media (min-width: 576px){
+    /*
+    body {
+        background-color: #fff000;
+    }
+    */
+
+/*Ródape*/
+.flexFooter{
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#social{
+    margin: 0;
+}
+
+}
+/*Tablet Portrait*/
+@media (min-width: 768px){
+    /*
+    body {
+        background-color: #ff0000;
+        color: rgb(255, 255, 255)
+    }
+    */
+}
+/*Tablet Landscape*/
+@media (min-width: 992px){
+    /*
+    body {
+        background-color: #0ff000;
+    }
+    */
+}
+
+/*Desktop*/
+@media (min-width: 1200px){
+    /*
+    body {
+        background-color: #fff;
+        color: #0000;
+    }
+    */
+}
